@@ -76,11 +76,13 @@
 ## Unit 1: Front-End Development
 #### Week 2 - Javascript && JQuery
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** Javascript will be introduced incrementally and in a way that should not be jarring.  The first three days should not even include HTML - this forces/allows the student to only focus on Javascript, the big picture stuff will be covered Thursday and Friday.  Repeated questions and verbal quizzing is crucial h
+ere. They should start memorizing the concepts here, and I tell them so. I reiterate the lack of need for memorization for most things technology but this is so basic and fundamental to their work that it's a special case.  Consider using props.  A big foam finger would be invaluable to demonstrate click events with JQuery.  A deck of cards would also help greatly to represent an game of War with cards using object literals.  When students create associations with real world tangible objects it makes coding a lot easier.   
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+**Weekend homework:** Tic-Tac-Toe. Challenge the students to finish the click events and turn logic before end of day Friday.  That way they'll have a good foundation for individual learning.
+
+**Behavioral:** Monitor for students who are not doing their due dilligence of homework and reading.  Make sure to ask every student a question during lectures to gauge abilities.  This is where the class truly begins and students need to be able to synthesize starting now.
 
 <table><thead>
 <tr>
@@ -148,11 +150,19 @@
 ## Unit 1: Front-End Development
 #### Week 3 - Objects && API Integration
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** I bring in fresh flowers for the OOP lab to have students better associate the concepts of properties, methods, constructors, etc. The foundations we laid for Object literals pays off here in day one.  
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
+Ajax is your first tough lesson!  I like to demonstrate Ajax by having a student act as my http request:
+	- My endpoint is the office coffee. I'll be requesting coffee with a 'GET' request.
+	- I give my student my coffee cup and they'll come back with it full (data response)
+	- I highlight that the call is asynchronous by continuing to extole the virtues of AJAX. I will also talk about how we are all currently learning while the 'call' is still being sent to/from the endpoint.
+	- when the coffee student/coffee comes back, praise them highly and get a round of applause for them.  Tell them what you were discussing.  Have them imagine if we were all completely silent waiting for them to come back (synchronous) and how slow it would have been without asynchronous code.
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+Giffaw and Geoquakes are for the most part self-led labs which are great opportunities for students to learn that they need to RTFM.  Also it creates bottlenecks of their knowledge base so they'll need to check back on previous lessons or google to find answers. It's a fun two days.
+
+**Weekend homework:** The challenge of hitting the API isn't the hard part. The challenge lies in building out the data response into a friendly view. Show them cards and they'll go crazy for cards.  I recommend urging them to make a hardcoded version to better create a visual style (the only focus) THEN using templating.  String literals are their friends and they need to know that.
+
+**Behavioral:** This is where students need to be weeded out. If they cannot demonstrate array iteration, function declaration, the request/response cycle, and basic JQuery event listeners by Friday, then they need to consider retaking the class or doubling their efforts with great prejudice.
 
 <table><thead>
 <tr>
@@ -217,11 +227,16 @@
 ## Unit 2: Back-End Development
 #### Week 4 - Express, Mongoose, and MongoDB
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** Express requires a lot of visual diagramming.  Feel free to take up the ENTIRE white board with a user's laptop on one side and a server on the other. Draw long lines (http) between the two and go over the request response cycle at least three times in a row.  This creates the fundamental connections in their learning re: front-end and back-end.  I use humor to make it easier for students to remember the cycle; make a big deal about how when servers are drawn they should always have three lines to represent hard drive bays.  When drawing hte laptop always poll students as far as what kind of fruit to draw as the logo on the screen.  Do this EVERY time and students will gain loyalty to the drawings, i.e. the concepts.  It works!  Also feel free to draw a database connected to the server but don't go too far into it's workings.  The database platter stack should also have three platters for fun.  
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
+When introing Mongoose/MongoDB also make sure to draw the request/response cycle as review from the previous day and also to frame the relevance of the database and where it fits in to their code.  Relationships can be difficult but are necessary for them to understand.  Poll possible relationships with them and draw out ERD diagrams for them to understand visually.  The more they see representing these concepts, the better. Have groups draw ERDS on their tables or as individuals. Go through each one and correct as a class as needed.  
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+Repeat your req/res diagram roughly every time a student needs to see it.  Don't hesitate to cram it down their throats.  Seriously
+
+**Weekend homework:** The personal API is a great tool to ascertain how much they have absorbed over the week.  Stress upon them the importance of looking back on the week's lessons to make a finished product. Stress RESTful routes and how the patterns and routes should be listed BEFORE actually coding them.
+
+
+**Behavioral:** At this point you should have a strong idea of who your students are and how they'll be throughout the class.  You'll need to ramp up your cheerleading and remind them that they're learning a lot and that we don't expect full retention as long as they know how to find the answers.  Don't let them make assumptions about whether or not they're back end or front end developers, taht will create an implicit permission for them to not pay attention to half the lessons.  Remind them that all developers are full developers.
 
 <table><thead>
 <tr>
@@ -285,11 +300,12 @@
 
 #### Week 5 - Auth and other goodies
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** Auth is a nightmare that students must endure.  They will be seeing a LOT of thirdparty code that will be more complex than they're used to. Make this an opportunity for them to review the code independently then as a class go over their findings.  They all want login with facebook/gmail but remind them how important it is to have basic local auth first.  Have them work on adding auth to their previous labs / code as practice. 
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+**Weekend homework:** Intro Project 1. You can either have them do this in pairs or as groups, up to you. I chose groups and it worked out quite well. Make sure to keep their scope simple and obtainable. Enforce good habits (wireframes, erd, sprints) and hold them accountable. Don't let them code until they give you all planning materials and you approve.  The more detail they have in the beginning the better the project flow.  
+
+**Behavioral:** This is where it gets interesting. Students will face a wall of code that is foreign to them.  This is a teachable moment on not giving up and perseverence. 
 
 <table><thead>
 <tr>
@@ -350,15 +366,27 @@
 </tbody></table>
 
 
+## Unit 3: Front-End Frameworks
+#### Week 6 - Project 1
+
+You will be inundated with questions and error messages.  Require that they have their sprints up and their erds and wireframes on their screens and that they are in fact following their plans.  Open up the relevant lectures on their computer for them and show them the necessary resources.  Don't write code on their laptops, but don't just deny them resources. It's a fine balance.  Lead them to the answer. Keep presentations lively and an overall celebration. 
+
+bonus: After the presentations, have them all write down every vocabulary word, pattern, key concept, basically ANYTHING and EVERYTHING they have learned thus far on the wall. Let them all repeate words if they want.  This will give them an opportunity to step back and see how far they've gone.  It's okay to be stressed and lost at some times, they're learning! I give them this old chestnut; "This is a coding bootcamp, not a coding spa!"  Good job!
+
+
 
 ## Unit 3: Front-End Frameworks
 #### Week 7 - Getting Acute with Angular (Don't be obtuse!)
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** At this point Angular is optional.  You could bump up to two weeks of React based on your skillset.  There is a lot of bleeding-edge content globally, so look at different markets.  T
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
+If you choose to do Angular, keep it simple.  React is where larger, harder concepts are introduced.  Introduce routing, two-way binding, templating, partials, etc. but anything more might burn them out.  They're all going to be shellshocked from Project 1.  
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+Fun time bonus: for the Goat routing lab, have them create 'partials' of a greater view by drawing goat profiles on large pieces of sticky notes and demonstrate routing by placing their profile sheets onto a site you draw on the whiteboard. Again, this encourages visual learning and association. Keep the goats proudly displayed and the students will LOVE it.
+
+**Weekend homework:** Encourage them to make a MEAN stack app or refactor a previous assignment. A perfect bookend to their previous coursework would be an Angular refactor of their personal portfolio website or creating a nice Angular front end to their personal API or both.  
+
+**Behavioral:** Be easy on them this week. They're licking their wounds.
 
 <table><thead>
 <tr>
@@ -423,11 +451,11 @@ Tunely Angular Sprint 3"</a><!--Tuesday Dusk--></td>
 ## Unit 3: Front-End Development
 #### Week 8 - Don't overREACT
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+**Overview:** React is hard for students.  It introduces ES6 and new patterns they haven't seen before.  Extol the virtues of repetition and rereading documentation. React has great documentation so encourage them to look into that as well.  All of our current material is very VERY new so feel free to make any additions or refinements as you see fit.  The file structure here is a bit difficult.  I used different colored strings to trace the path of props and state being passed up and down from component to component; this seemed to help many students.  Keep them rigid on their routing (RESTful!) and make sure they go slow.   
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
+**Weekend homework:** Intro Project 2 
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+**Behavioral:** They will be afraid of React but remind them that they will learn it through repetition, not absorption
 
 <table><thead>
 <tr>
@@ -489,14 +517,23 @@ Tunely Angular Sprint 3"</a><!--Tuesday Dusk--></td>
 
 <hr />
 
+## Unit 3: Front-End Development
+#### Week 9 - Project 2!
+
+**Overview:** For my cohort I allowed students to choose whether or not they wanted to use the MEAN or MERN stacks. Most chose the MERN.  The same rules as before for Project 1 applies to Project 2 - be helpful but not a coder for their project.  Lead them to resources.  This is a group project so make sure they are communicating their errors and bugs to each other.  If one person doesn't know the answer, another should. You should only be giving help if they all come to you. 
+
 ## Unit 4: Being a developer!
-#### Week 10 - Python!
+#### Week 10 - Discovery!
+Lightning Talks! This is your opportunity to find lectures that don't quite fit in your curriculum and teach them as one off discoveries.  If you have a certain passion, share it with the students!  
 
-**Overview:** This week will focus on setting expectations and standards for their ongoing use of HTML and CSS frameworks. Git & GitHub workflow will be introduced and stressed. It is *VITALLY* important that they understand how to use the github workflow. Have them run drill repeatedly. Students often get confused when makeing local git repos and the repo not automatically appearing on the github site. Consider urging students to begin a 'cookbook' of code snippets to use throughout the course. 
+Assign the students lightning talks Monday afternoon and have them present on Tuesday.  Do it again on Wednesday afternoon. I introduced Sass, more Firebase, D3, Docker, an alternate Mapping API, and how to push to AWS.  Also consider Cosmic JS and/or React-Native. 
 
-**Weekend homework:** Create HTML/CSS reproductions of mockup pdf files. 
 
-**Behavioral:** Identify students that are not electing information/questions and have one on one meetings with them to ascertain viability in class ( meet with all students if possible )
+## Unit 4: Being a developer!
+#### Week 11 - Python!
+
+**Overview:** This is technically an experimental week.  Use at your own discretion.  You could have them do Project 3 at this point but I wanted to explore and utilize Python and Django in a classroom setting.  This whole week needs some cleaning and tidying.  This lab is a rip off from codeschool and does not yet do full CRUD. needs crud and login. How to hit an external API would also be nice.
+
 
 <table><thead>
 <tr>
@@ -565,3 +602,15 @@ Tunely Angular Sprint 3"</a><!--Tuesday Dusk--></td>
 <td><a href="https://github.com/wdi-atx-11/">Python!</a><!--Friday HW--></td>
 </tr>
 </tbody></table>
+
+## Unit 4: Being a developer!
+#### Week 11 - Project 3!
+
+**Overview:** These are individual projects.  I gave them full choice as to what technology they want to use.  Urge them to do quality prototypes and proofs of concept over a large app. We want them to do one thing well.  Keep them well scoped.  Also keep the required planning documents at a high quality. At this point they should be automatic.  Reduce the amount of assistance you give, as they should be completely independent at this point. Good job! You've made yourself a swell batch of developers!  Repeat the Project 1 and 2 processes and you'll be in great shape!
+
+
+
+Contact: 
+slack: justincastilla
+github: [github.com/justincastilla](github.com/justincastilla)
+email: justin.castilla@ga.co
