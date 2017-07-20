@@ -608,9 +608,28 @@ Assign the students lightning talks Monday afternoon and have them present on Tu
 
 **Overview:** These are individual projects.  I gave them full choice as to what technology they want to use.  Urge them to do quality prototypes and proofs of concept over a large app. We want them to do one thing well.  Keep them well scoped.  Also keep the required planning documents at a high quality. At this point they should be automatic.  Reduce the amount of assistance you give, as they should be completely independent at this point. Good job! You've made yourself a swell batch of developers!  Repeat the Project 1 and 2 processes and you'll be in great shape!
 
+## Prescribed schedule implementation
 
+One of our biggest challenges is keeping our material as consistent, fresh, and informative as possible.  The `forking` and `pull request` features allow us to meet these challenges.  The current best practice has been implemented in the [San Francisco](www.github.com/sf-wdi-labs) branch with great success; I invite you to give it a try and make any optimizations you see fit.
 
-Contact: 
-slack: justincastilla
-github: [github.com/justincastilla](github.com/justincastilla)
+***Tenets of WDI material:***  
+
+1. All origin material (your original work) should either exist in the `ga-atx` organization or be forked over to the `ga-atx` from wherever.  Main point: `ga-atx` is the nexus of all wdi materials.  
+
+2. If you want to use a lesson plan from `ga-atx` in your wdi schedule, consider forking the whole repository over to your wdi-specific org.  
+
+	- Your cohort specific organization should ultimately house ALL forked copies of lessons.  
+
+3. By all means, make changes to the forked repository of the lessons in your local cohort org.  It is vitally important to make sure these lessons are up to date (versions are up to date and stable) and there are no spelling/grammatical errors (there's always some somewhere).  Make changes as you see fit.  
+
+4. If you feel that your changes are large or take an alternate path, consider creating a branch of your changes.  You'll notice many of the repositories will have solution branches or branches specific to cohorts or regions. Its important to see all the different implementations and to preserve previous methodologies.  
+
+5. At the end of the cohort (or end of the lesson) consider creating a pull request to bring in any of your changes back into the `ga-atx` org.  This keeps the original source of truth up to date for future cohorts.  	
+
+Contact:  
+
+slack: justincastilla  
+
+github: [github.com/justincastilla](github.com/justincastilla)  
+
 email: justin.castilla@ga.co
